@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User interface</title>
+        <script src="jquery-3.2.1.js"></script>
+    </head>
+    <center style="font-size:25px;">
+        <body>
+                <p style="font-size:36px;">User</p>
+                <br>
+            <form id="form_check">
+                <button style="font-size:25px;" type="submit">Request balance</button>
+            </form>
+                <br>
+                <div id="log"></div><br>
+                ----------------------------<br><br>
+                Destination:<br>
+                <input type="text" id="address" name="destination" value="">
+                <br>
+                Amount:<br>
+                <input type="number" id="amount" name="amount" value="">
+                <br><br>
+            <form id="form_send">
+                <button style="font-size:25px;" type="submit">Send tokens</button>
+            </form>
+                <br>
+                ----------------------------<br><br>
+                Supplier:<br>
+                <input type="text" id="supplier" name="supplier" value="">
+                <br>
+                kWh:<br>
+                <input type="number" id="kWh" name="kWh" value="">
+                <br>
+                SmartMeter:<br>
+                <input type="text" id="meter" name="meter" value="">
+                <br>
+                Price (total, not per kWh):<br>
+                <input type="number" id="price" name="price" value="">
+                <br><br>
+            <form id="form_buy">
+                <button style="font-size:25px;" type="submit">Request Energy</button>
+            </form>
+        </body>
+    </center>
+    <script src="user.js"></script>
+</html>
