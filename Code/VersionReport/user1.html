@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User 1</title>
+        <script src="jquery-3.2.1.js"></script>
+    </head>
+    <center style="font-size:25px;">
+        <body>
+                <p style="font-size:36px;">User 1</p>
+                <p style="font-size:12px;">0x9a15292d492667bafe62d53b4e369d28600d1973</p>
+                <br>
+            <form id="form_check">
+                <button style="font-size:25px;" type="submit">Request balance</button>
+            </form>
+                <br>
+                <div id="log"></div><br>
+                ------ Send Tokens ---------<br><br>
+                Destination:<br>
+                <input type="text" id="address" name="address" value="">
+                <br>
+                Amount:<br>
+                <input type="number" id="amount" name="amount" value="">
+                <br><br>
+            <form id="form_send">
+                <button style="font-size:25px;" type="submit">Send tokens</button>
+            </form>
+                <br>
+                ------ Buy Energy ---------<br><br>
+                kWh:<br>
+                <input type="number" id="kWh" name="kWh" value="">
+                <br>
+                Price (total, not per kWh):<br>
+                <input type="number" id="price" name="price" value="">
+                <br><br>
+            <form id="form_buy">
+                <button style="font-size:25px;" type="submit">Buy Energy</button>
+            </form>
+                <br>
+                ------ Smart Meter ---------<br><br>
+                kWh:<br>
+                <input type="number" id="kWh_prod" name="kWh_prod" value="">
+                <br><br>
+            <form id="form_report_production">
+                <button style="font-size:25px;" type="submit">Report production</button>
+            </form>
+        </body>
+    </center>
+    <script src="user1.js"></script>
+</html>

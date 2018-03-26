@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User 2</title>
+        <script src="jquery-3.2.1.js"></script>
+    </head>
+    <center style="font-size:25px;">
+        <body>
+                <p style="font-size:36px;">User 2</p>
+                <p style="font-size:12px;">0xfe17a5d63ca15bc052bbbf179a85bdbe62af363c</p>
+                <br>
+            <form id="form_check">
+                <button style="font-size:25px;" type="submit">Request balance</button>
+            </form>
+                <br>
+                <div id="log"></div><br>
+                ------ Send Tokens ---------<br><br>
+                Destination:<br>
+                <input type="text" id="address" name="destination" value="">
+                <br>
+                Amount:<br>
+                <input type="number" id="amount" name="amount" value="">
+                <br><br>
+            <form id="form_send">
+                <button style="font-size:25px;" type="submit">Send tokens</button>
+            </form>
+                <br>
+                ------ Buy Energy ---------<br><br>
+                kWh:<br>
+                <input type="number" id="kWh" name="kWh" value="">
+                <br>
+                Price (total, not per kWh):<br>
+                <input type="number" id="price" name="price" value="">
+                <br><br>
+            <form id="form_buy">
+                <button style="font-size:25px;" type="submit">Buy Energy</button>
+            </form>
+        </body>
+    </center>
+    <script src="user2.js"></script>
+</html>
